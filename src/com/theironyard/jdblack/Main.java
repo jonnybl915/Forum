@@ -34,6 +34,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<Post> posts = parsePosts("posts.txt");
 
+
         //start loop
         Scanner consoleScanner = new Scanner(System.in);
         int currentPost = -1;
